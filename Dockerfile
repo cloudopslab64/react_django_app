@@ -19,4 +19,4 @@ RUN apt-get update && apt-get upgrade -y
 COPY . /app
 
 # Define the command to run when the container starts.
-CMD ["python", "manage.py","runserver","0.0.0.0:5001"]
+CMD ["python", "manage.py","runserver","0.0.0.0:5000"]
